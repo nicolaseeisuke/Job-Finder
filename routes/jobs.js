@@ -1,8 +1,12 @@
 const express = require('express');
-const router = express.Router();
-const job     = require('../models/job');
+const router  = express.Router();
+const Job     = require('../models/Job');
 
 // adiconar job via job
+
+router.get('/add', (rec,res) => {
+  res.render('add')
+})
 
 router.post('/add', (req,res) => {
 
@@ -10,7 +14,7 @@ router.post('/add', (req,res) => {
 
   // inserir
 
-  job.create({
+  Job.create({
     title,
     salary,
     company,
