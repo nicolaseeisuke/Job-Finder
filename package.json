@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "vercel-build": "npx prisma migrate deploy"
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "dev",
