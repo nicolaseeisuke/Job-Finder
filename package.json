@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "este sistema é um portal para programadores encontrar vagas de emprego",
   "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [
