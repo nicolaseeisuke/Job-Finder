@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "este sistema é um portal para programadores encontrar vagas de emprego",
   "main": "app.js",
-  "type": "module",
   "engines": {
     "node": "18.x"
   },
